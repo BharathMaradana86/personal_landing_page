@@ -1,0 +1,203 @@
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+  .concol2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formcol{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media screen and (min-width:768px) {
+    .conrow{
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 8%;
+    }
+    .concol1 {
+      width: 50%;
+      
+      margin-left: 7%;
+    }
+    .p111{
+        font-size: 70px;
+    }
+    .p222{
+        margin-top: 8px;
+        font-size: 20px;
+    }
+    .concol2{
+      width: 50%;
+      margin-right: 7%;
+    }
+  }
+  
+  @media screen and (max-width:768px) {
+    .conrow{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10%;
+    }
+    .concol1{
+      width: 100%;
+    }
+    .concol2{
+      width: 100%;
+
+    }
+    .p111{
+        font-size: 30px;
+    }
+    .p222{
+        margin-top: 8px;
+        font-size: 16px;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .formrow{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+    .concol2 {
+        gap: 30px;
+    }
+    .formcol{
+        gap: 10px;
+    }
+    .formcol input{
+        border-radius: 10px;
+        height: 44px;
+
+    }
+    .formcol textarea{
+        border-radius: 10px;
+    }
+
+    .formrow{
+        width: 100%;
+    }
+    .formcol{
+        width: 50%;
+    }
+
+    .colend{
+        width: 100%;
+    }
+    .formcol input{
+        padding: 8px 12px;
+    }
+    .formcol textarea{
+      padding: 12px 12px;
+    }
+
+  }
+
+  @media screen and (max-width:768px) {
+    .formrow{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .concol2{
+        gap: 20px;
+    }
+    .formcol{
+        gap: 5px;
+    }
+    .formcol input{
+        border-radius: 10px;
+        height: 44px;
+
+    }
+    .formcol textarea{
+        border-radius: 10px;
+    }
+
+    .formrow{
+        width: 100%;
+    }
+    .formcol{
+        width: 100%;
+    }
+
+    .colend{
+        width: 100%;
+    }
+    .formcol input{
+        padding: 8px 12px;
+    }
+    .formcol textarea{
+      padding: 12px 12px;
+    }
+
+  }
+
+  .formcol textarea{
+    font-size: 16px;
+  }
+
+  .formcol input,.formcol textarea{
+    outline: none;
+    
+  }
+
+  .blur{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0px 3px 5px grey;
+    border-radius: 10px;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    margin: 5px;
+    border: none;
+  }
+
+  .formsubmit{
+    width: 30%;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    background: #0b338f ;
+    color: white;
+    margin-top: 5px;
+  }
+
+  
+  
+  .formsubmit:hover{
+    cursor: pointer;
+    background: #0c43b6;
+    transform: translateY(-5px); 
+  }
+
+/* 
+  @media screen and (min-width:576px) {
+    .contactparent{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+  }
+
+  @media screen and (max-width:576px) {
+    .contactparent{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+  } */

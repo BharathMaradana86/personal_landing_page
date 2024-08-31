@@ -1,0 +1,56 @@
+
+.sur{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 10%;
+  }
+  
+  @media screen and (max-width:768px) {
+    .surhead{
+      font-size: 30px;
+    }
+    .surpara{
+      font-size: 16px;
+    }
+    .dha{
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (min-width:768px) {
+    .surhead{
+      font-size: 50px;
+    }
+    .surpara{
+      width: 60%;
+      font-size: 22px;
+    }
+    .dha{
+      font-size: 26px;
+    }
+  }
+  
+  
+  
+  
+  .surbtn{
+    font-size: 16px;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    background: #034ca1 ;
+    color: white;
+  }
+  
+  
+  .surbtn:hover{
+    cursor: pointer;
+    transform: translateY(-5px); 
+  }
